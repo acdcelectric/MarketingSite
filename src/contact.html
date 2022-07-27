@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=3.0">
+    <link rel="icon" href="Images/logo.jpeg"> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="html" href="electric.html">
+    <link rel="stylesheet" href="CSS/contact.css">
+    <title>CONTACT US</title>
+    <script src="CSS/mail.js" type="text/javascript"></script> 
+    
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script><!-- PLEASE UPDATE ELECTRI WEB EMAIL JS LINK FROM PLAYGROUN IN TEMPLATE IN EMAIL JS -->
+
+<script type="text/javascript">
+(function()
+{
+  emailjs.init('nNpBKFwY7MvpwMuLE'); //PLEASE FILL UP ELECTRI WEB EMAIL JS TOKEN FROM PLAYGROUN IN TEMPLATE INSTEAD THE GIVEN TOKEN
+})();
+         </script>
+</head>
+<body>
+  <!---------------------------------------SIDENAVBAR ----------------------------------------------->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="evcharging.html" id="vanish"><i class="fa-solid fa-charging-station"></i>EV Charging</a>
+        <a href="download.html"id="vanish-1"><i class="fa-solid fa-mobile-screen"></i>Mobile App</a>
+        <a href="#" id="vanish-2"  id="current-2" ><i class="fa-solid fa-comment-dots"></i>Contact Us</a>
+        
+      </div>
+      
+      <div id="main">
+          
+          <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        </div>
+      
+        <div class="bar" id="navbar">
+          <a href="index.html" id="logo"><img src="Images/Electric Web - Dark - Logo.png" alt="" data-aos="flip-left" id="logo1">
+          </a>
+          <div class="vl"></div>
+          <a href="evcharging.html" class="UP" ><div class="ABC"><i class="fa-solid fa-charging-station"></i>EV Charging</div></a>
+          <div class="vl"></div>
+          <a href="download.html" class="UP"><div class="ABC" ><i class="fa-solid fa-mobile-screen"></i>Mobile App</div></a>
+          <div class="vl"></div>
+          <a href="#" class="UP"><div class="ABC" id="current-2"><i class="fa-solid fa-comment-dots"></i>Contact Us</div></a>
+          <div class="vl"></div>
+          <a href="aboutus.html" class="UP"><div class="ABC"><i class="fa-solid fa-address-card"></i>About Us</div></a>
+         </div>
+
+  
+      <div class="fullform">
+    
+       <div class="img-hold"data-aos="fade-right">
+      <img src="Images/We_d love to hear from you!.png" alt="">
+    
+       </div>
+       <div class="form" data-aos="flip-down">
+      
+       <div>Name:</div>
+        <input type="text"  id="name" class="Name" placeholder="Name"  required > 
+
+       <div>E-Mail Address: </div> 
+        <input type="email"   id="emai_lid" placeholder="E-Mail" required>
+
+        <div>Phone Number:</div>
+        <input type="text" id="phone_number"placeholder="Phone Number" required> 
+        
+       <div>Query:</div>
+       <textarea style="width:60%; height:40%;font-size:22px;margin-top:20px;border-radius:20px;padding:5px;color:grey;outline:none;" placeholder="What's your query"  id="message"></textarea> 
+       <br>
+
+
+      <button onclick="SendMail() ; empty()" onc id="button">Submit</button>
+      
+        <br>
+         
+   
+     
+
+      </div>
+     
+      <div class="whatsapp">
+         <p class="Address">Have your Doubts Clarified from Our Officials!!</p>
+         <div class="watbutton">
+      <a href=" https://wa.me/9205427914 "><img src="Images/str.png" alt="">
+       </a>
+       </div>
+      </div>
+       <div class="Address">  ACDC Electric Infrastructure Pvt. Ltd.
+UB 36, Antriksh Bhawan, K.G. Marg, Connaught Place, New Delhi
++91 9205427914
+       </div>
+      <div class="ourteam">
+
+
+    <div class="fullbody">
+           <div class="footer"data-aos="flip-down">
+          <div class="image-holder">
+          <a href="https://play.google.com/store/apps/details?id=com.acdcelectric.urja"><img src="Images/gp.png" alt=""></a>
+          <a href="https://apps.apple.com/in/app/electricweb/id1569958711"><img src="Images/aps.png" alt=""></a>
+          </div>
+          <div class="charging">
+          <a href="evcharging.html"><h4><i class="fa-solid fa-plug-circle-bolt"></i>CHARGING</h4></a>
+          <a href="evcharging.css#charges"> <p class="charge"><i class="fa-solid fa-bolt"></i>HOW IT WORKS</p></a>
+          <a href="ourmotto.html"><p class="charge"><i class="fa-solid fa-crosshairs"></i>OUR MOTTO</p></a>
+          
+         
+           
+            
+           
+          
+          </div>
+          <div class="aboutus">
+          <a href="aboutus.html"> <h4><i class="fa-solid fa-address-card"></i>ABOUT US</h4></a>
+          <a href="aboutus.html#who"><p class="charge"><i class="fa-solid fa-circle-question"></i></i>WHO WE ARE</p></a>
+          <a href="aboutus.html#what"><p class="charge"><i class="fa-solid fa-arrow-trend-up"></i>WHAT WE DO</p></a>
+          <a href="aboutus.html#how"><p class="charge"><i class="fa-solid fa-circle-exclamation"></i>HOW WE DO</p></a>
+          
+          </div>
+          <div class="contact">
+            <a href="contact.html"><h4><i class="fa-solid fa-phone"></i> CONTACT US</h4></a>
+            <a href="privatepolicy.html"> <h4><i class="fa-solid fa-signs-post"></i>PRIVATE POLICY</h4></a>
+            <a href="terms.html"><h4><i class="fa-solid fa-circle-exclamation"></i>TERM OF USE</h4></a>
+          </div>
+          <div class="socialmedia">
+            <h4>FOLLOW US ON</h4>
+            <a href="https://www.facebook.com/ElectricWeb-106700864679580/"><p><i class="fa-brands fa-facebook"></i>FACEBOOK</p></a>
+            <a href="https://twitter.com/ElectricwebI"> <p><i class="fa-brands fa-twitter"></i>TWITTER</p></a>
+            <a href=" https://www.instagram.com/electricwebindia/"><p><i class="fa-brands fa-instagram"></i>INSTAGRAM</p></a>
+            <a href="https://www.linkedin.com/in/electricweb-59060b1b8"> <p><i class="fa-brands fa-linkedin"></i>LINKED IN</p></a>
+          </div>
+          <a href="#navbar" id="arrow">
+          <p><i class="fa fa-arrow-circle-up" style="font-size:48px;"></i></p> 
+         </a>
+         </div>  
+         <div class="cop"><br id="no"><p class="copyright" id="copies" ><i class="fa-regular fa-copyright" style="padding-right:10px;"></i>Electric Web-All Rights Reserved.</p>
+         </div>
+       </div>
+      
+      
+      
+      
+       
+      
+     
+            <script>
+              function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "0px";
+        document.getElementById("vanish").style.display= "block";
+        document.getElementById("vanish-1").style.display= "block";
+        document.getElementById("vanish-2").style.display= "block";
+        document.body.style.backgroundColor = "#d9e5ff";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+        document.getElementById("vanish").style.display= "none";
+        document.getElementById("vanish-1").style.display= "none";
+        document.getElementById("vanish-2").style.display= "none";
+        document.body.style.backgroundColor = "#d9e5ff";
+      }
+           </script>
+              
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+      <script src="https://kit.fontawesome.com/32c3112450.js" crossorigin="anonymous"></script>  
+   
+</body>
+</html>
