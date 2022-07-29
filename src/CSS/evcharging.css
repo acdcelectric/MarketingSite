@@ -9,7 +9,7 @@
      height:100vh;
      background-size: cover;
     
-    background-color:#d9e5ff;
+    background-color:#ffffff;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
      
    }
@@ -23,26 +23,10 @@
     font-family: Barlow;
    }
    #charges img{
-    width:70%;
-    border: 5px solid rgb(197, 153, 43);
+    width:90%;
+    
    }
-   /*----table-----*/
-   table {
    
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #dddddd;
-  }
-  
      /*------------------------------sidenavbar--------------------------------------- */
      .sidenav {
       height: 100%;
@@ -338,6 +322,10 @@
       border-collapse: collapse;
       
     }
+    #charges h1{
+      font-size:40px;
+      font-family: Barlow;
+     }
     .ac table td{
       font-size:11px;
       margin:0;
@@ -432,7 +420,7 @@
         justify-content: center;
       }
       .bar a{
-        margin-left:30px;
+        margin-left:20px;
         
         
       }
@@ -485,17 +473,16 @@
      justify-content: center;
      align-items: center;
      text-align: center;
-     font-size:16px;
+     font-size:14px;
     }
     .image-holder img:nth-child(1){
       padding-top:19px;
       padding-left:20px;
       width:190px;
      }
-     #apple
-     { width: 190px;
-       padding-top:20px;
-       padding-bottom:10px ;
+     .image-holder
+     {
+      margin-left:0px;
      }
     .charging
     {
@@ -520,6 +507,7 @@
     .image-holder
     {
       display: block;
+      margin-left:0px;
     }
     #arrow
     {color:rgb(255, 250, 250);
@@ -557,12 +545,11 @@
     }
     /*-----------------*/
     @media screen and (min-device-width: 320px) and (max-device-width: 637px)
-    {
-        .policy iframe
-        {
-         width:90%;
-         height:500px;
-        }
+    {  #charges h1{
+      font-size:40px;
+      font-family: Barlow;
+     }
+        
         .copyright
     {
       font-size:16px;
@@ -583,7 +570,7 @@
         justify-content: center;
       }
       .bar a{
-        margin-left:30px;
+        margin-left:0px;
         
         
       }
@@ -625,7 +612,7 @@
      justify-content: center;
      align-items: center;
      text-align: center;
-     font-size:16px;
+     font-size:14px;
     }
     .image-holder img:nth-child(1) {
      padding-top:19px;
@@ -636,6 +623,10 @@
     {
       padding-top:-5px;
       padding-bottom:10px ;
+    }
+    .image-holder
+    {
+     margin-left:15px;
     }
     .charging
     {

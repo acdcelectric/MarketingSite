@@ -9,7 +9,7 @@
      height:100vh;
      background-size: cover;
     
-    background-color:rgb(219, 231, 255);
+    background-color:#ffffff;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
      
    }
@@ -155,10 +155,6 @@
     {
       border-radius:100px;
       width:75px;
-    }
-    #vanish-1
-    {
-     color:rgb(212, 177, 89);
     }
     
     @keyframes tada {
@@ -327,7 +323,7 @@
         justify-content: center;
       }
       .bar a{
-        margin-left:30px;
+        margin-left:20px;
       }
       .bar #hide
       {
@@ -381,7 +377,7 @@
      justify-content: center;
      align-items: center;
      text-align: center;
-     font-size:16px;
+     font-size:14px;
     }
     .image-holder img:nth-child(1){
       padding-top:19px;
@@ -416,6 +412,7 @@
     .image-holder
     {
       display: block;
+      margin-left:0px;
     }
     #arrow
     {color:rgb(255, 250, 250);
@@ -447,7 +444,7 @@
         justify-content: center;
       }
       .bar a{
-        margin-left:30px;
+        margin-left:0px;
         
         
       }
@@ -492,7 +489,11 @@
      justify-content: center;
      align-items: center;
      text-align: center;
-     font-size:16px;
+     font-size:14px;
+    }
+    .image-holder
+    {
+      margin-left:15px;
     }
     .image-holder img:nth-child(1) {
      padding-top:19px;

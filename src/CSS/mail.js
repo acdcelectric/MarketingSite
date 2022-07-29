@@ -27,6 +27,6 @@ function SendMail()
     }
     emailjs.send("service_6jcooin","template_kga82kf",params).then(function (res) //PLEASE CHANGE YOUR SERVER ID AND TEMPLATE ID FROM EMAIL JS
     {
-       alert ("Thank you for the response! " + res.status);
+       alert ("Thank you for the response! ");
     })
 }
